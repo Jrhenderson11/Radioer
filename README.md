@@ -1,7 +1,5 @@
 # Radioer
 
-
-
 Situation: I enjoy listening to comedians on the radio
 
 Problem 1: I don't like all of them
@@ -24,4 +22,18 @@ And I am interested in the 6:30 slot which can be found using the following html
 < span class="timezone--time">18:30</span > 
  ...
 
- So the program inspects the 6:30 slot of each day in the week and emails the results to 
+ So the program inspects the 6:30 slot of each day in the week and emails the results to me
+
+ =========================================================================
+ Technical stuff:
+
+ The program relies on web scraping, first it finds the current date and uses a website to determine day of the week (although I think there is a mathematical way of doing that).
+
+ Then the program uses the bbc iplayer website, determined by the date in question to look for the title, description and link to whatever is in the 6:30 slot.
+
+ once the information is gathered it emails them to any recipients. 
+
+ =========================================================================
+
+To sanitise the file I uploaded to the repo I have removed the email address and password and recipient email, however all 3 are needed to send the email. You will need a valid gmail address and password, because the program uses the gmail servers to send the email. you could of course substitute the email sending code for your own if you want to work with a different email provider, or you could use the text generated and host it on a website or something.
+

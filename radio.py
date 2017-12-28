@@ -120,7 +120,7 @@ outro = """
 """
 recipients = ['recipient1', 'recipient2']
 for recipient in recipients:
-	send_email('email@website.com', 'emailpassword', recipient, 'Weekly radio update', text)
+	send_email('email@gmail.com', 'emailpassword', recipient, 'Weekly radio update', text)
 #email to meeeee
 #get day of week
 #from https://www.timeanddate.com/date/weekday.html?day=11&month=5&year=2012
