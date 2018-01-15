@@ -111,7 +111,8 @@ def get_week_schedule():
 						text = text + subtitle + "\n"
 						text = text + link + "\n\n"
 			except:
-				text = text + "No information yet"
+				text = text + days[i] + "\n"
+				text = text + "No information yet + \n\n"
 	return text
 
 text = get_week_schedule()
