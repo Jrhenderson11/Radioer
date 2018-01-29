@@ -45,4 +45,4 @@ and add the following line
 
 	0 12 * * 1 python ~/Documents/git/Radioer/radio.py 
 
-This makes the too run at 12 (midday I think) the first day of each week 
+This makes the too run at 12 the first day of each week 
